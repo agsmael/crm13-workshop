@@ -5,8 +5,8 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.gobelins.mael.crm13_workshop"
-        minSdkVersion 15
+        applicationId "louisbl.fr.hellocrm"
+        minSdkVersion 14
         targetSdkVersion 20
         versionCode 1
         versionName "1.0"
@@ -22,4 +22,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile files('libs/jEN.jar')
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.squareup.picasso:picasso:2.3.4'
 }
